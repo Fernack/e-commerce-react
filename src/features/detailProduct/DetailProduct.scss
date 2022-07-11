@@ -1,0 +1,39 @@
+.detail-product {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 82px);
+    justify-content: center;
+ 
+    &--arrow {
+        padding: 10px;
+        position: absolute;
+        left: 0;
+    }
+
+    &--image {
+        align-self: center;
+        max-width: 40%;
+        max-height: calc(100vh - 100px);
+    }
+
+    &-description{
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        margin-left: 20px;
+
+        &--price {
+            font-size: 30px;
+        }
+
+        &--controls {
+            display: flex;
+            
+            button { 
+                height: 100px;
+                background-color: transparent;
+                border: none;
+            }
+        }
+    }
+}

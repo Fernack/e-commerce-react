@@ -1,0 +1,36 @@
+.productItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d3d3c840;
+    box-shadow: 3px 3px 30px -4px grey;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    .product {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &-description {
+            flex: 1 1 auto;
+        }
+
+        &-price {
+            width: 100px;
+        }
+
+        &-image {
+            height: 50px;
+            margin-right: 10px;
+            padding-top: 20px;
+        }
+    }
+
+    i {
+        cursor: pointer;
+    }  
+}
+
